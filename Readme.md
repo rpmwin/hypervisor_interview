@@ -27,3 +27,11 @@ createRoot(document.getElementById("root")).render(
         </BrowserRouter>
     </StrictMode>
 );
+
+
+
+
+use localhost:5173/all for displaying all the data
+use localhost:5173/add for add the transaction
+use localhost:5173/edit for edit the transaction
+use localhost:5173/delete fordelete the transaction
