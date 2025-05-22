@@ -11,6 +11,6 @@ const router = express.Router();
 router.post("/addTransaction", AddTranaction);
 router.get("/getTransactions", getTransactions);
 router.post("/editTrans", editTrans);
-router.get("/deleteTrans", deleteTrans);
+router.delete("/deleteTrans", deleteTrans);
 
 export default router;

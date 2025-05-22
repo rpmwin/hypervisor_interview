@@ -10,12 +10,13 @@ function Deleteme() {
 
     const handleSubmit = async () => {
         try {
-            const res = await axios.get(
+            const res = await axios.delete(
                 "http://localhost:5000/api/deleteTrans",
                 {
-                    idd: id,
+                    data: { idd: id },
                 }
             );
+              
 
             console.log(res);
             alert("edited successfuly");
