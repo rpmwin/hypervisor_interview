@@ -1,0 +1,1 @@
+here i have two front end and backend go inside each folder run (npm i) to install then ru npm run dev in both of them to run the code
