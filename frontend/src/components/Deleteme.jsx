@@ -16,10 +16,9 @@ function Deleteme() {
                     data: { idd: id },
                 }
             );
-              
 
             console.log(res);
-            alert("edited successfuly");
+            alert("delete successfuly");
         } catch (error) {
             console.group(error);
         }
